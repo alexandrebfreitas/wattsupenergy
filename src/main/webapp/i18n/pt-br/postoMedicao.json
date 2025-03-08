@@ -1,0 +1,29 @@
+{
+  "wattsUpEnergyApp": {
+    "postoMedicao": {
+      "home": {
+        "title": "Posto Medicaos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Posto Medicao",
+        "createOrEditLabel": "Criar ou editar Posto Medicao",
+        "notFound": "Nenhum Posto Medicao encontrado"
+      },
+      "created": "Um novo Posto Medicao foi criado com o identificador { param }",
+      "updated": "Um Posto Medicao foi atualizado com o identificador { param }",
+      "deleted": "Um Posto Medicao foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Posto Medicao { id }?"
+      },
+      "detail": {
+        "title": "Posto Medicao"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "numUsinaHidreletrica": "Num Usina Hidreletrica",
+      "bacia": "Bacia",
+      "subbacia": "Subbacia",
+      "submercado": "Submercado",
+      "numPostoMedicao": "Num Posto Medicao"
+    }
+  }
+}

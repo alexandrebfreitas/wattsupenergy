@@ -1,0 +1,39 @@
+{
+  "annotations": {
+    "changelogDate": "20250308135548"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numUsinaHidreletrica",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "bacia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subbacia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "submercado",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PostoMedicao",
+  "relationships": [
+    {
+      "otherEntityName": "acomph",
+      "otherEntityRelationshipName": "numPostoMedicao",
+      "relationshipName": "numPostoMedicao",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

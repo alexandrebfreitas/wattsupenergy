@@ -1,0 +1,59 @@
+{
+  "annotations": {
+    "changelogDate": "20250308135547"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "vazaoDefluenteLido",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vazaoDefluenteConsolidado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vazaoAfluenteLido",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vazaoAfluenteConsolidado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vazaoIncrementalConsolidado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vazaoNaturalConsolidado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "nivelReservatorioLido",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "nivelReservatorioConsolidado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "dataPublicacao",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Acomph",
+  "relationships": [
+    {
+      "otherEntityName": "postoMedicao",
+      "otherEntityRelationshipName": "numPostoMedicao",
+      "relationshipName": "numPostoMedicao",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

@@ -1,0 +1,26 @@
+entity Acomph {
+    date LocalDate,
+    vazaoDefluenteLido Double,
+    vazaoDefluenteConsolidado Double,
+    vazaoAfluenteLido Double,
+    vazaoAfluenteConsolidado Double,
+    vazaoIncrementalConsolidado Double,
+    vazaoNaturalConsolidado Double,
+    nivelReservatorioLido Double,
+    nivelReservatorioConsolidado Double,
+    DataPublicacao LocalDate
+}
+
+entity PostoMedicao {
+    nome String,
+    numUsinaHidreletrica Integer,
+    bacia String,
+    subbacia String,
+    submercado String,
+    submercado String
+}
+
+relationship ManyToOne {
+    Acomph{numPostoMedicao} to PostoMedicao{numPostoMedicao}
+}
+

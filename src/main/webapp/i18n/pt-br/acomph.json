@@ -1,0 +1,34 @@
+{
+  "wattsUpEnergyApp": {
+    "acomph": {
+      "home": {
+        "title": "Acomphs",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Acomph",
+        "createOrEditLabel": "Criar ou editar Acomph",
+        "notFound": "Nenhum Acomph encontrado"
+      },
+      "created": "Um novo Acomph foi criado com o identificador { param }",
+      "updated": "Um Acomph foi atualizado com o identificador { param }",
+      "deleted": "Um Acomph foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Acomph { id }?"
+      },
+      "detail": {
+        "title": "Acomph"
+      },
+      "id": "ID",
+      "date": "Date",
+      "vazaoDefluenteLido": "Vazao Defluente Lido",
+      "vazaoDefluenteConsolidado": "Vazao Defluente Consolidado",
+      "vazaoAfluenteLido": "Vazao Afluente Lido",
+      "vazaoAfluenteConsolidado": "Vazao Afluente Consolidado",
+      "vazaoIncrementalConsolidado": "Vazao Incremental Consolidado",
+      "vazaoNaturalConsolidado": "Vazao Natural Consolidado",
+      "nivelReservatorioLido": "Nivel Reservatorio Lido",
+      "nivelReservatorioConsolidado": "Nivel Reservatorio Consolidado",
+      "dataPublicacao": "Data Publicacao",
+      "numPostoMedicao": "Num Posto Medicao"
+    }
+  }
+}
